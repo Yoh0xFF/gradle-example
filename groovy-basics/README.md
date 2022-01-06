@@ -5,3 +5,5 @@
 - Def keywork explained
 - Strings
 - Properties
+- Closures
+- Closures as argument
