@@ -3,8 +3,8 @@ class Person {
   String lastName
 
   Person(String firstName, String lastName) {
-    this.firstName = firstName;
-    this.lastName = lastName;
+    this.firstName = firstName
+    this.lastName = lastName
   }
 
   def executeInside(Closure c) {
@@ -13,6 +13,6 @@ class Person {
   }
 }
 
-def p = new Person('Dennis', 'Ritchie')
+def p = new Person("Dennis", "Ritchie")
 
 p.executeInside { println "Hello $firstName $lastName" }

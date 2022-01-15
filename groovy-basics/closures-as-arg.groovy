@@ -29,4 +29,4 @@ rslt = twoArgFunc 2, {
 }
 assert rslt == 12
 
-println 'Success!'
+println "Success!"

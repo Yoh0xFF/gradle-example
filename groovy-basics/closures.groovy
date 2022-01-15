@@ -1,16 +1,16 @@
 // Closures are lambda functions in groovy
-Closure echoIt = { // This can be defined as 'def echoIt' as well
-  println 'Hello World!'
+Closure echoIt = { // This can be defined as "def echoIt" as well
+  println "Hello World!"
 }
 echoIt()
-println ''
+println ""
 
-// By default 'it' parameter is passed to the closure
+// By default "it" parameter is passed to the closure
 def echoItWithDefaultParam = {
   println it
 }
-echoItWithDefaultParam('Hello World!')
-println ''
+echoItWithDefaultParam("Hello World!")
+println ""
 
 // We can pass parameters to the closure as well
 def echoItWithParams = {
@@ -19,8 +19,8 @@ def echoItWithParams = {
   println b
   println c
 }
-echoItWithParams('Hello World!', 'How are you?', 'Nice to see you!')
-println ''
+echoItWithParams("Hello World!", "How are you?", "Nice to see you!")
+println ""
 
 // We can pass typed parameters to the closure as well
 def echoItWithTypedParams = {
@@ -29,5 +29,5 @@ def echoItWithTypedParams = {
   println b
   println c
 }
-echoItWithTypedParams('Hello World!', 'How are you?', 'Nice to see you!')
-println ''
+echoItWithTypedParams("Hello World!", "How are you?", "Nice to see you!")
+println ""
