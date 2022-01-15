@@ -1,3 +1,8 @@
 **/.idea
-**/.gradle
 **/.vscode
+
+**/.gradle/*
+!**/.gradle/
+!**/.gradle/init.d
+!**/.gradle/init.d/*.gradle
+
