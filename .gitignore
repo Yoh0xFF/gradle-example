@@ -1,8 +1,8 @@
 **/.idea
 **/.vscode
 
-**/.gradle/*
-!**/.gradle/
-!**/.gradle/init.d
-!**/.gradle/init.d/*.gradle
+**/.gradle
+**/gradle
+**/gradlew
+**/gradlew.bat
 
