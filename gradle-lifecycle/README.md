@@ -17,8 +17,8 @@
 ### Lifecycle Phases
 
 - **Initialization** - maps to one or more 'init.gradle' and 'settings.gradle' script files
-- **Configuration** - maps to 'build.gradle' script file
-- **Execution** - maps to 'build.gradle' script file
+- **Configuration** - maps to 'build.gradle' script file (create, configure tasks)
+- **Execution** - maps to 'build.gradle' script file (execute tasks)
 
 ### Gradle Object Model Schema
 
