@@ -1,0 +1,42 @@
+println ""
+println ""
+println "**************************************************"
+println ">>> settings.gradle"
+
+logger.info """
+Welcome to gradle $gradle.gradleVersion
+Gradle home is set to: $gradle.gradleHomeDir
+Gradle user directory is set to: $gradle.gradleUserHomeDir
+"""
+
+// Properties file
+if (hasProperty("fileProp1")) {
+  logger.info "The propety file value for 'fileProp1' is: $fileProp1"
+} else {
+  logger.info "Oops! 'fileProp1' not found."
+}
+if (hasProperty("fileProp2")) {
+  logger.info "The propety file value for 'fileProp2' is: $fileProp2"
+} else {
+  logger.info "Oops! 'fileProp2' not found."
+}
+
+// Command line properties
+if (hasProperty("commandLineProp")) {
+  logger.info "The propety file value for 'commandLineProp' is: $commandLineProp"
+} else {
+  logger.info "Oops! 'commandLineProp' not found."
+}
+
+// Extension properties
+settings.ext.extProp = "Settings Extension Property"
+if (hasProperty("extProp")) {
+  logger.info "The propety file value for 'extProp' is: $extProp"
+} else {
+  logger.info "Oops! 'extProp' not found."
+}
+
+
+println "**************************************************"
+println ""
+println ""
